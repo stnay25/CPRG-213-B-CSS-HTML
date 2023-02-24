@@ -1,0 +1,91 @@
+/* Styling*/
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Lucida Sans;
+    color: #00376c;
+  }
+  
+  a {
+    color: #00376c;
+    text-decoration: none;
+  }
+  
+  a:hover {text-decoration: underline;}
+  
+  h2 {
+    border-bottom: 2px solid #7b7b7b;
+    text-align: center;
+  }
+  
+  h3 {
+    border-bottom: 2px solid #1577ff;
+    display: inline;
+  }
+  
+  .services p,
+  footer p {
+    font-style: italic;
+  }
+  
+  /* Layout */
+  header,
+  footer {
+    border-bottom: 6px solid #7b7b7b;
+    line-height: 80px;
+    text-align: center;
+    background-color: #c7e3ff;
+    margin-bottom: 40px;
+  }
+  footer {
+    padding: 10px;
+  }
+  
+  .story, .services, .locations {
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    background-color: #e7e7e7;
+  }
+  img {width: 150px;}
+  /*styling Lucy's Laundry */
+  
+  header {
+    height: 100px;
+  }
+  .story h2 {color: #1577ff;}
+  
+  .services h3 {color: #00376c;}
+  
+  .services ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .locations h2 {color: #1577ff;}
+  
+  .locations ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .locations .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .locations .location img {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .locations .location h3 { margin: 0;}
+  
+  .locations .location p {
+    margin: 0;
+    font-size: 14px;
+    color: #7b7b7b;
+  }
+  
